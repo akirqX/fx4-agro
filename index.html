@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FX4 Agro - Infraestrutura de um dos maiores Grupos da Agropecuária do mundo</title>
+    <meta name="description" content="A FX4 AGRO disponibiliza uma das melhores estruturas de confinamento do Brasil, com diversas alternativas para manejo e engorda bovina.">
+    <link rel="icon" href="img/logop.png" sizes="192x192">
+    <link rel="apple-touch-icon" href="img/logop.png">
+    
+    <!-- Preload resources -->
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" as="style">
+    <link rel="preload" href="styles.css" as="style">
+    <link rel="preload" href="script.js" as="script">
+    <link rel="preload" href="img/gado.png" as="image" importance="high">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto+Slab:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Loading Animation -->
+    <div class="loading-overlay">
+        <div class="loader">
+            <div class="loader-inner">
+                <div class="loader-line-wrap">
+                    <div class="loader-line"></div>
+                </div>
+                <div class="loader-line-wrap">
+                    <div class="loader-line"></div>
+                </div>
+                <div class="loader-line-wrap">
+                    <div class="loader-line"></div>
+                </div>
+                <div class="loader-line-wrap">
+                    <div class="loader-line"></div>
+                </div>
+                <div class="loader-line-wrap">
+                    <div class="loader-line"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" aria-label="Voltar ao topo">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-container">
+                <div class="logo-container">
+                    <a href="index.html" aria-label="Página inicial">
+                        <img width="300" height="182" src="img/logop.png" alt="FX4 Agro Logo" loading="lazy">
+                    </a>
+                </div>
+                
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="#sobre" class="nav-link">Sobre</a></li>
+                        <li><a href="#vantagens" class="nav-link">Vantagens</a></li>
+                        <li><a href="#servicos" class="nav-link">Serviços</a></li>
+                        <li><a href="#estrutura" class="nav-link">Estrutura</a></li>
+                        <li><a href="#unidades" class="nav-link">Unidades</a></li>
+                        <li><a href="#contato" class="nav-link">Contato</a></li>
+                    </ul>
+                </nav>
+                
+                <div class="header-actions">
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/fx4agro/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://wa.me/5581988488700" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                    <div class="mobile-menu-toggle" aria-label="Menu mobile">
+                        <div class="hamburger">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="inicio">
+        <div class="hero-content">
+            <h1 class="hero-title" data-aos="fade-up">Engorda e Rentabilidade</h1>
+            <p class="hero-text" data-aos="fade-up" data-aos-delay="100">A FX4 AGRO disponibiliza uma das melhores estruturas de confinamento do Brasil, com diversas alternativas para manejo e engorda bovina.</p>
+            <div class="hero-buttons" data-aos="fade-up" data-aos-delay="200">
+                <a href="#servicos" class="btn btn-primary">Conheça nossos serviços</a>
+                <a href="#contato" class="btn btn-outline">Fale conosco</a>
+            </div>
+        </div>
+        <div class="hero-image" data-aos="fade-left">
+            <img src="img/gado.png" alt="Gado FX4 Agro em confinamento moderno" loading="lazy">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section section-padding" id="sobre">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Sobre nós</h2>
+                <p class="section-subtitle">Conheça a FX4 Agro</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right">
+                    <p>Com presença estratégica nas regiões Norte, Nordeste e Centro-Oeste, possuímos unidades operacionais em São Lourenço da Mata (PE), Campina Grande (PB), Palestina do Pará (PA), Novo Repartimento(PA) Floriano (PI), Itapuranga (GO), Marianópolis do Tocantins (TO) e Porto Nacional (TO).</p>
+                    <p>Todas são estruturadas com tecnologia de ponta e contam com equipes altamente capacitadas, garantindo excelência em nutrição e sanidade animal, além de consolidar nosso compromisso com o desenvolvimento do agronegócio nacional e o fortalecimento das cadeias produtivas regionais.</p>
+                    <div class="about-stats">
+                        <div class="stat-item" data-aos="zoom-in" data-aos-delay="100">
+                            <div class="stat-number" data-count="50">0</div>
+                            <div class="stat-label">mil animais</div>
+                        </div>
+                        <div class="stat-item" data-aos="zoom-in" data-aos-delay="200">
+                            <div class="stat-number" data-count="8">0</div>
+                            <div class="stat-label">unidades</div>
+                        </div>
+                        <div class="stat-item" data-aos="zoom-in" data-aos-delay="300">
+                            <div class="stat-number" data-count="100">0</div>
+                            <div class="stat-label">% compromisso</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image" data-aos="fade-left">
+                    <img src="img/gradofrente-768x516.webp" alt="Estrutura moderna da FX4 Agro" loading="lazy">
+                    <div class="image-overlay"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services-section section-padding" id="servicos">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Nossos Serviços</h2>
+                <p class="section-subtitle">Soluções para sua produção</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon">
+                        <i class="fas fa-at"></i>
+                    </div>
+                    <h3>Arroba Produzida</h3>
+                    <p>Utilizamos o peso de abate para cálculo da quantidade de arrobas que foram produzidas e cálculo de custos do pecuarista.</p>
+                    <a href="#contato" class="service-link">Saiba mais <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon">
+                        <i class="fas fa-hotel"></i>
+                    </div>
+                    <h3>Diária</h3>
+                    <p>O cliente poderá utilizar nossa infraestrutura e alimentação como num sistema de hotel, pagando uma diária para engorda do seu rebanho.</p>
+                    <a href="#contato" class="service-link">Saiba mais <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <h3>Compra direta</h3>
+                    <p>O pecuarista negocia a venda dos animais diretamente com a FX4 AGRO, de forma rápida, segura, transparente e lucrativa.</p>
+                    <a href="#contato" class="service-link">Saiba mais <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-icon">
+                        <i class="fas fa-weight-hanging"></i>
+                    </div>
+                    <h3>KGS DE MATÉRIA SECA</h3>
+                    <p>O pecuarista paga pelo consumo de matéria seca de seus animais.</p>
+                    <a href="#contato" class="service-link">Saiba mais <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Advantages Section -->
+    <section class="advantages-section section-padding" id="vantagens">
+        <div class="container">
+            <div class="advantages-content">
+                <div class="section-header" data-aos="fade-up">
+                    <h2 class="section-title">Vantagens do Confinamento FX4 AGRO</h2>
+                    <p class="section-subtitle">Porque escolher nossa estrutura</p>
+                </div>
+                
+                <div class="advantages-grid">
+                    <div class="advantage-card" data-aos="fade-right" data-aos-delay="100">
+                        <div class="advantage-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="advantage-text">
+                            <h3>Tempo reduzido de engorda</h3>
+                            <p>O sistema de confinamento permite uma engorda até quatro vezes mais rápida do que o tempo médio para uma terminação a pasto.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="advantage-card" data-aos="fade-right" data-aos-delay="200">
+                        <div class="advantage-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="advantage-text">
+                            <h3>Maior rendimento</h3>
+                            <p>O acabamento de carcaça de um animal no confinamento é superior ao animal a pasto, garantindo melhores rendimentos no abate.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="advantage-card" data-aos="fade-right" data-aos-delay="300">
+                        <div class="advantage-icon">
+                            <i class="fas fa-hand-holding-usd"></i>
+                        </div>
+                        <div class="advantage-text">
+                            <h3>Garantia de retorno</h3>
+                            <p>Com o conhecimento do tempo para o abate e preço travado, o pecuarista tem a possibilidade de programar os seus investimentos financeiros.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="advantage-card" data-aos="fade-right" data-aos-delay="400">
+                        <div class="advantage-icon">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <div class="advantage-text">
+                            <h3>Descanso da Pastagem</h3>
+                            <p>Permite ao produtor aliviar as pastagens da fazenda e com isso, traz a oportunidade de antecipar a recria e até mesmo reforma das pastagens.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="advantages-cta" data-aos="fade-up">
+                    <a href="#contato" class="btn btn-primary">Entre em Contato</a>
+                </div>
+            </div>
+        </div>
+        <div class="advantages-image" data-aos="fade-left">
+            <img src="img/antes.jpg" alt="Comparativo antes/depois do confinamento FX4 Agro" loading="lazy">
+        </div>
+    </section>
+
+    <!-- Structure Section -->
+    <section class="structure-section section-padding" id="estrutura">
+        <div class="container">
+            <div class="structure-content">
+                <div class="section-header" data-aos="fade-up">
+                    <h2 class="section-title">Infraestrutura</h2>
+                    <p class="section-subtitle">Tecnologia e qualidade</p>
+                </div>
+                
+                <div class="structure-text" data-aos="fade-right">
+                    <p>Com capacidade para 50 mil animais, além de equipe especializada composta por zootecnistas, veterinários e agrônomos renomados, conta com um sistema totalmente informatizado, rastreamento dos animais e produção de altíssima qualidade.</p>
+                    
+                    <div class="structure-feature">
+                        <div class="feature-icon">
+                            <i class="fas fa-industry"></i>
+                        </div>
+                        <div class="feature-text">
+                            <h3>Fábrica de Ração</h3>
+                            <p>Para o melhor desempenho dos animais confinados, a FX4 AGRO possui produção de ração totalmente automatizada com BPF. A dieta fornecida aos animais foi desenvolvida pensando na engorda rápida e melhor acabamento de carcaça dos animais que são terminados em nossas unidades.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="structure-feature">
+                        <div class="feature-icon">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <div class="feature-text">
+                            <h3>Bem-estar Animal</h3>
+                            <p>Temos currais de manejo anti estresse, com balança digital e tronco de contenção que facilitam o manejo e garantem o bem-estar do animal e dos trabalhadores. Todos os animais possuem rastreabilidade, mais uma vantagem para o produtor.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="structure-cta" data-aos="fade-up">
+                        <a href="#contato" class="btn btn-primary">Entre em Contato</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="structure-image" data-aos="fade-left">
+                <div class="image-slider">
+                    <div class="slider-item active">
+                        <img src="img/gado_curral.webp" alt="Estrutura FX4 Agro - Curral moderno" loading="lazy">
+                    </div>
+                    <div class="slider-item">
+                        <img src="img/curralredondo.png" alt="Estrutura FX4 Agro - Visão aérea" loading="lazy">
+                    </div>
+                    <div class="slider-item">
+                        <img src="img/gradofrente.webp" alt="Estrutura FX4 Agro - Fazenda completa" loading="lazy">
+                    </div>
+                </div>
+                <div class="slider-controls">
+                    <button class="slider-prev" aria-label="Imagem anterior"><i class="fas fa-chevron-left"></i></button>
+                    <button class="slider-next" aria-label="Próxima imagem"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Units Section -->
+    <section class="units-section section-padding" id="unidades">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Nossas Unidades</h2>
+                <p class="section-subtitle">Cada vez mais próximo de você</p>
+            </div>
+            
+            <div class="units-content">
+                <p class="units-description" data-aos="fade-up">A FX4 AGRO está em constante expansão, conheça nossas unidades espalhadas pelo território brasileiro.</p>
+                
+                <div class="units-map" data-aos="zoom-in">
+                    <img src="img/mapa.png" alt="Mapa das unidades FX4 Agro no Brasil" usemap="#unitmap" loading="lazy">
+                    <map name="unitmap">
+                        <area shape="circle" coords="970,330,20" href="https://maps.app.goo.gl/z3cFEp9xmCNDx43o9" alt="São Lourenço da Mata-PE" target="_blank" rel="noopener noreferrer">
+                        <area shape="circle" coords="890,240,20" href="https://maps.app.goo.gl/4q7hUDeSwbVHeFYm8" alt="Campina Grande-PB" target="_blank" rel="noopener noreferrer">
+                        <area shape="circle" coords="600,230,20" href="https://maps.app.goo.gl/T495fw9a2N6BVv3F7" alt="Palestina do Pará-PA" target="_blank" rel="noopener noreferrer">
+                        <area shape="circle" coords="480,190,20" href="https://maps.app.goo.gl/PiLb8v7YssCK5TAv7" alt="Novo Repartimento-PA" target="_blank" rel="noopener noreferrer">
+                        <area shape="circle" coords="740,320,20" href="https://maps.app.goo.gl/beFev9QqDQEavjHaA" alt="Floriano - PI" target="_blank" rel="noopener noreferrer">
+                        <area shape="circle" coords="630,430,20" href="https://maps.app.goo.gl/92fAyGZVCsJSr99V9" alt="Itapuranga-GO" target="_blank" rel="noopener noreferrer">
+                        <area shape="circle" coords="580,340,20" href="https://maps.app.goo.gl/XAXGyU22yXUDHPZV9" alt="Marianópolis do Tocantins-TO" target="_blank" rel="noopener noreferrer">
+                        <area shape="circle" coords="490,280,20" href="https://maps.app.goo.gl/1fe9ajNhr5iKP5F89" alt="Porto Nacional-TO" target="_blank" rel="noopener noreferrer">
+                    </map>
+                    <div class="map-instruction">CLIQUE NO MARCADOR PARA VER A LOCALIZAÇÃO</div>
+                </div>
+                
+                <div class="units-list" data-aos="fade-up">
+                    <div class="unit-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="unit-info">
+                            <h3>São Lourenço da Mata-PE</h3>
+                            <a href="https://maps.app.goo.gl/z3cFEp9xmCNDx43o9" target="_blank" rel="noopener noreferrer" class="unit-link">Ver no mapa <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="unit-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="unit-info">
+                            <h3>Campina Grande-PB</h3>
+                            <a href="https://maps.app.goo.gl/4q7hUDeSwbVHeFYm8" target="_blank" rel="noopener noreferrer" class="unit-link">Ver no mapa <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="unit-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="unit-info">
+                            <h3>Palestina do Pará-PA</h3>
+                            <a href="https://maps.app.goo.gl/T495fw9a2N6BVv3F7" target="_blank" rel="noopener noreferrer" class="unit-link">Ver no mapa <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="unit-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="unit-info">
+                            <h3>Novo Repartimento-PA</h3>
+                            <a href="https://maps.app.goo.gl/PiLb8v7YssCK5TAv7" target="_blank" rel="noopener noreferrer" class="unit-link">Ver no mapa <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="unit-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="unit-info">
+                            <h3>Floriano-PI</h3>
+                            <a href="https://maps.app.goo.gl/beFev9QqDQEavjHaA" target="_blank" rel="noopener noreferrer" class="unit-link">Ver no mapa <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="unit-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="unit-info">
+                            <h3>Itapuranga-GO</h3>
+                            <a href="https://maps.app.goo.gl/92fAyGZVCsJSr99V9" target="_blank" rel="noopener noreferrer" class="unit-link">Ver no mapa <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="unit-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="unit-info">
+                            <h3>Marianópolis do Tocantins-TO</h3>
+                            <a href="https://maps.app.goo.gl/XAXGyU22yXUDHPZV9" target="_blank" rel="noopener noreferrer" class="unit-link">Ver no mapa <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="unit-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="unit-info">
+                            <h3>Porto Nacional-TO</h3>
+                            <a href="https://maps.app.goo.gl/1fe9ajNhr5iKP5F89" target="_blank" rel="noopener noreferrer" class="unit-link">Ver no mapa <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="units-cta" data-aos="fade-up">
+                    <a href="#contato" class="btn btn-primary">Entre em Contato</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section section-padding" id="contato">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Entre em Contato</h2>
+                <p class="section-subtitle">Estamos prontos para atendê-lo</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="info-text">
+                            <h3>Endereço</h3>
+                            <p>QUADRA SHCS CR 516 BLOCO B, número 66</p>
+                            <p>ASA SUL - BRASILIA - DF, CEP: 70.381-525</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="info-text">
+                            <h3>Telefone</h3>
+                            <p><a href="tel:+5581988488700">(81) 98848-8700</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="info-text">
+                            <h3>Email</h3>
+                            <p><a href="mailto:contato@fx4agro.com.br">contato@fx4agro.com.br</a></p>
+                            <p><a href="mailto:rh@fx4agro.com.br">rh@fx4agro.com.br</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-social">
+                        <a href="https://www.instagram.com/fx4agro/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://wa.me/5581988488700" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <a href="https://www.facebook.com/fx4agro" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/company/fx4agro" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container" data-aos="fade-left">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Nome</label>
+                            <input type="text" id="name" name="name" placeholder="Seu nome completo" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="Seu melhor email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Telefone</label>
+                            <input type="tel" id="phone" name="phone" placeholder="Seu telefone com DDD">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Assunto</label>
+                            <select id="subject" name="subject">
+                                <option value="comercial">Informações Comerciais</option>
+                                <option value="trabalhe-conosco">Trabalhe Conosco</option>
+                                <option value="duvidas">Dúvidas Técnicas</option>
+                                <option value="outros">Outros Assuntos</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Mensagem</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Sua mensagem" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-block">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section section-padding">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">O que dizem sobre nós</h2>
+                <p class="section-subtitle">Depoimentos de nossos clientes</p>
+            </div>
+            
+            <div class="testimonials-slider" data-aos="fade-up">
+                <div class="slider-container">
+                    <div class="testimonial-item active">
+                        <div class="testimonial-content">
+                            <div class="testimonial-text">
+                                <p>"A FX4 Agro revolucionou nossa produção. O sistema de confinamento reduziu nosso tempo de engorda em 60% e aumentou significativamente nossa rentabilidade."</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <div class="author-image">
+                                    <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="João Silva" loading="lazy">
+                                </div>
+                                <div class="author-info">
+                                    <h4>João Silva</h4>
+                                    <p>Fazenda Santa Rita - GO</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-item">
+                        <div class="testimonial-content">
+                            <div class="testimonial-text">
+                                <p>"A equipe técnica da FX4 é altamente capacitada. Nos orientaram em todo o processo e os resultados superaram nossas expectativas."</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <div class="author-image">
+                                    <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Maria Oliveira" loading="lazy">
+                                </div>
+                                <div class="author-info">
+                                    <h4>Maria Oliveira</h4>
+                                    <p>Fazenda Boa Esperança - TO</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-item">
+                        <div class="testimonial-content">
+                            <div class="testimonial-text">
+                                <p>"A transparência no sistema de arroba produzida nos deu segurança para investir mais. Hoje temos uma parceria de longa data com a FX4 Agro."</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <div class="author-image">
+                                    <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="Carlos Mendes" loading="lazy">
+                                </div>
+                                <div class="author-info">
+                                    <h4>Carlos Mendes</h4>
+                                    <p>Fazenda São Carlos - PA</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="slider-dots">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Partners Section -->
+    <section class="partners-section section-padding">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Nossos Parceiros</h2>
+                <p class="section-subtitle">Empresas que confiam em nosso trabalho</p>
+            </div>
+            
+            <div class="partners-grid" data-aos="fade-up">
+                <div class="partner-item">
+                    <img src="img/parceiro1.png" alt="Parceiro 1" loading="lazy">
+                </div>
+                <div class="partner-item">
+                    <img src="img/parceiro2.png" alt="Parceiro 2" loading="lazy">
+                </div>
+                <div class="partner-item">
+                    <img src="img/parceiro3.png" alt="Parceiro 3" loading="lazy">
+                </div>
+                <div class="partner-item">
+                    <img src="img/parceiro4.png" alt="Parceiro 4" loading="lazy">
+                </div>
+                <div class="partner-item">
+                    <img src="img/parceiro5.png" alt="Parceiro 5" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <div class="footer-logo">
+                        <img src="img/logop.png" alt="FX4 Agro Logo" loading="lazy">
+                    </div>
+                    <p class="footer-about">A FX4 AGRO disponibiliza uma das melhores estruturas de confinamento do Brasil, com diversas alternativas para manejo e engorda bovina.</p>
+                    <div class="footer-social">
+                        <a href="https://www.instagram.com/fx4agro/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://wa.me/5581988488700" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <a href="https://www.facebook.com/fx4agro" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/company/fx4agro" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h3 class="footer-title">Links Rápidos</h3>
+                    <ul class="footer-links">
+                        <li><a href="#sobre">Sobre Nós</a></li>
+                        <li><a href="#servicos">Serviços</a></li>
+                        <li><a href="#vantagens">Vantagens</a></li>
+                        <li><a href="#estrutura">Estrutura</a></li>
+                        <li><a href="#unidades">Unidades</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3 class="footer-title">Serviços</h3>
+                    <ul class="footer-links">
+                        <li><a href="#servicos">Arroba Produzida</a></li>
+                        <li><a href="#servicos">Sistema de Diária</a></li>
+                        <li><a href="#servicos">Compra Direta</a></li>
+                        <li><a href="#servicos">KGS de Matéria Seca</a></li>
+                        <li><a href="#servicos">Consultoria Técnica</a></li>
+                        <li><a href="#servicos">Rastreabilidade</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3 class="footer-title">Contato</h3>
+                    <div class="footer-contact">
+                        <p><i class="fas fa-map-marker-alt"></i> QUADRA SHCS CR 516 BLOCO B, número 66, ASA SUL - BRASILIA - DF, CEP: 70.381-525</p>
+                        <p><i class="fas fa-phone-alt"></i> <a href="tel:+5581988488700">(81) 98848-8700</a></p>
+                        <p><i class="fas fa-envelope"></i> <a href="mailto:contato@fx4agro.com.br">contato@fx4agro.com.br</a></p>
+                        <p><i class="fas fa-envelope"></i> <a href="mailto:rh@fx4agro.com.br">rh@fx4agro.com.br</a></p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-copyright">
+                    <p>&copy; <span id="current-year"></span> FX4AGRO. Todos os direitos reservados.</p>
+                </div>
+                
+                <div class="footer-legal">
+                    <a href="#">Política de Privacidade</a>
+                    <a href="#">Termos de Uso</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
